@@ -1,5 +1,5 @@
 // Copyright (C) 2018 basysKom GmbH, opensource@basyskom.com
-// SPDX-License-Identifier: LicenseRef-Qt-Commercial
+// SPDX-License-Identifier: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
 
 #include <QCommandLineParser>
 #include <QCoreApplication>
@@ -26,7 +26,7 @@ void createLicenseHeader(QTextStream &output)
 {
     output << R"(
 // Copyright (C) 2021 basysKom GmbH, opensource@basyskom.com
-// SPDX-License-Identifier: LicenseRef-Qt-Commercial
+// SPDX-License-Identifier: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
 )";
 }
 
